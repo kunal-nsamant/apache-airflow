@@ -1,0 +1,40 @@
+# OS files
+
+.DS_Store
+.DS_Store?
+
+# Logs
+
+*.log
+logs/
+
+# Python
+
+*pycache*/
+*.py[cod]
+*.pyc
+*.pyo
+
+# Virtual environments
+
+venv/
+.venv/
+env/
+.env
+
+# Airflow
+
+airflow.db
+airflow.cfg
+webserver_config.py
+
+# IDE
+
+.vscode/
+.idea/
+*.swp
+
+# Environment variables
+
+.env
+.env.local
