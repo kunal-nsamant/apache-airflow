@@ -9,7 +9,7 @@ import datetime
 def run_mysql_extraction(): 
     # --- Configuration ---
     # MySQL Details (Your Local MySQL)
-    MYSQL_HOST = "localhost" 
+    MYSQL_HOST = "host.docker.internal" 
     MYSQL_PORT = 3306
     MYSQL_USER = "root"
     MYSQL_PASSWORD = "11213141" 
